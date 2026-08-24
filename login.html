@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubbuTech</title>
+    <script src="https://kit.fontawesome.com/1895c88440.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="subbutech.css">
+    <link rel="icon" type="image/x-icon" href="#">
+      
+</head>
+<body>
+    <header>
+        
+    <!--Start of Project-->
+
+        <div class="logo">
+            <img src="Images/Logo.png" alt="SubbuTech" width="200">
+        </div>
+
+        <!--Search box-->
+        
+        <div class="search-box">
+
+    <input type="text" id="search" placeholder="Search mobiles, accessories...">
+    <button>
+        <i class="fa fa-search"></i>
+    </button>
+        <!--end of search bar-->
+
+        <!--start of icon-->
+    </div>
+
+        <!-- Right Menu -->
+<div class="right-menu">
+
+    <!-- Login -->
+    <a href="login.html" class="menu-item">
+        <i class="fa-regular fa-user"></i>
+        <div>
+            <span>Login / Register</span>
+        </div>
+    </a>
+
+    <!-- Wishlist -->
+    <a href="wishlist.html" class="menu-item icon-box">
+        <i class="fa-regular fa-heart"></i>
+        <span class="count">0</span>
+        <p>Wishlist</p>
+    </a>
+
+    <!-- Cart -->
+    <a href="cart.html" class="menu-item icon-box">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="count">0</span>
+        <p>Cart</p>
+    </a>
+
+</div>
+    </header>
+    <!--end of icon-->
+
+
+<!--Start of Nav Bar-->
+    
+    <nav>
+            <a href="home.html">Home</a>
+            <a href="mobile.html">Mobiles</a>
+            <a href="accessories.html">Accessories</a>
+            <a href="repair.html">Repair Services</a>
+            <a href="exchange.html">Exchange</a>
+            <a href="offer.html">Offers</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+    </nav>
+
+<!--End of Nav Bar-->
+
+<!--==================== LOGIN SECTION ====================-->
+
+<section class="login-section">
+
+    <div class="container login-container">
+
+        <!-- Login Form -->
+
+        <div class="login-form">
+
+            <span class="login-tag">
+                <i class="fa-solid fa-user-lock"></i>
+                Secure Login
+            </span>
+
+            <h2>
+                Welcome
+                <span>Back!</span>
+            </h2>
+
+            <p>
+                Login to continue shopping with Subbu Tech and access your account.
+            </p>
+
+            <form>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <input type="email" placeholder="Email Address" required id="email">
+
+                </div>
+
+                <div class="input-box">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <input type="password" placeholder="Password" required id="password">
+
+                    
+
+                </div>
+
+                <div class="login-options">
+
+                    <label>
+
+                        <input type="checkbox"> Remember Me
+
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+
+                </div>
+
+                <button type="button" class="login-btn" onclick="login()">
+                     <i class="fa-solid fa-right-to-bracket"></i> Login
+                </button>
+
+                    <p id="error" style="color: red;"></p>
+            </form>
+
+            <div class="divider">
+
+                <span>OR</span>
+
+            </div>
+
+            <div class="social-login">
+
+                <a href="#">
+
+                    <i class="fa-brands fa-google"></i>
+
+                    Google
+
+                </a>
+
+                <a href="#">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                    Facebook
+
+                </a>
+
+            </div>
+
+            <p class="register-link">
+
+                Don't have an account?
+
+                <a href="register.html">Register Now</a>
+
+            </p>
+
+        </div>
+
+        <!-- Login Illustration -->
+
+        <div class="login-image">
+
+            <img src="Images/login.png" alt="Login">
+
+            <div class="login-features">
+
+                <div>
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    Secure Login
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    Easy Access
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    Shop Faster
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<script src="subbu.js"></script>
+</body>
+</html>
